@@ -2,16 +2,13 @@
 margin: 0px;
 padding:0px;
 }
-
-
 body{
     font-size:18px;
     background: #F8F8FF;
 }
-
 .header{
-margin: 50px auto 0px;
-                   width:35%;
+margin: 30px auto 0px;
+                   width:50%;
 color: white;
 background: #5F9EA0;
 text-align: center;
@@ -19,23 +16,9 @@ padding: 20px;
 border-radius: 20px 20px 0px 0px;
 border: 10px solid #5F9EA0;
 }
-
-.headerhome{
-margin: 0px auto 0px;
-                   width:80%;
-color: white;
-background: #5F9EA0;
-text-align: center;
-padding: 20px;
-border-radius: 0px 0px 0px 0px;
-border: 10px solid #5F9EA0;
-}
-
-
-
 form,
 .content{
-width: 80%;
+width: 50%;
 text-align: left;
 	margin: 0px auto;
 	padding: 20px;
@@ -43,25 +26,32 @@ text-align: left;
 	background: white;
 	border-radius: 0px 0px 20px 20px;
 }
-
 .input{
 	margin: 10px 0px 10px 0px;
 }
-
+.input label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
 .input input{
 border-radius: 5px 5px 5px 5px;
 height: 20px;
 width:93%;
 padding: 5px 10px;
 font-size: 18px;
-text-align: right;
+text-align: left;
 
 }
-.input label {
-	display: block;
-	text-align: right;
-	margin: 3px;
+.inputs input{
+border-radius: 5px 5px 5px 5px;
+height: 100px;
+width:93%;
+padding: 5px 10px;
+font-size: 18px;
+text-align: left;
 }
+
 
 .btn{
 padding:10px;
@@ -81,7 +71,7 @@ border-radius:5px;
 	color: #a94442; 
 	background: #f2dede; 
 	border-radius: 5px; 
-	text-align: right;
+	text-align: left;
 }
 
 .success {
